@@ -15,8 +15,8 @@ class ParseMeTest:
 
     def DoA(self):
         pass
+
 class ParseMeTest2(ParseMeTest):
     def DoB(self):
         self._secretinfo = 2
-
-    
+        self.exta_attr = "hi"
